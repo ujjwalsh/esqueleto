@@ -2,7 +2,9 @@ language: c
 
 services:
   - mysql
-
+arch:
+  - amd64
+  - ppc64le
 addons:
   postgresql: "10"
   apt:
